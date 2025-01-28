@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from 'react'
 import { UNSAFE_FetchersContext } from 'react-router-dom'
-import { CoinContext } from '../context/coincontext'
+import { CoinContext } from '../context/CoinContext'
 import { Link } from 'react-router-dom'
 
 const Home = () => {
