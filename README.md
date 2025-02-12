@@ -20,7 +20,7 @@ Follow these steps to set up Cryptofy on your local machine:
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/cryptofy.git
+git clone https://github.com/Vedant224/cryptofy.git
 cd cryptofy
 
 # Install dependencies
