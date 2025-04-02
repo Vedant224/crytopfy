@@ -52,9 +52,6 @@ const Navbar = () => {
             <div className="hidden md:flex">
                 <ul className="flex flex-row text-white gap-8 text-[17px] font-medium cursor-pointer">
                     <Link to={'/'}><li className="hover:text-gray-200">Home</li></Link>
-                    <li className="hover:text-gray-200">Features</li>
-                    <li className="hover:text-gray-200">Pricing</li>
-                    <li className="hover:text-gray-200">Blog</li>
                 </ul>
             </div>
             <div className="flex items-center gap-3">
@@ -85,10 +82,7 @@ const Navbar = () => {
             {isMenuOpen && (
                 <div className="absolute top-20 right-0 w-full bg-[#0D1421] p-4 pl-8 md:hidden">
                     <ul className="flex flex-col text-white gap-4 text-[17px] font-medium cursor-pointer">
-                        <li className="hover:text-gray-200">Home</li>
-                        <li className="hover:text-gray-200">Features</li>
-                        <li className="hover:text-gray-200">Pricing</li>
-                        <li className="hover:text-gray-200">Blog</li>
+                        <Link to={'/'}><li className="hover:text-gray-200">Home</li></Link>
                     </ul>
                     <button className="mt-4 w-full px-4 py-2 bg-white text-[#0D1421] rounded flex items-center justify-center space-x-2">
                         <span>Sign Up</span>

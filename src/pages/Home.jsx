@@ -31,7 +31,7 @@ const Home = () => {
 
     return (
         // CG-kBAqFPBd1XnhLdQNNQ5Q8o4q
-        <div className='text-white my-10'>
+        <div className='text-white my-10 p-4'>
             <div className="flex justify-center pt-0  py-[10px] pb-[50px]">
                 <div className="max-w-[600px] mx-[80px] my-auto flex flex-col items-center text-center gap-7">
                     <h1 className='font-bold text-4xl'>Largest <br /> Crypto Marketplace</h1>

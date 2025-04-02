@@ -36,7 +36,7 @@ const Coin = () => {
   if (coinData && historicalData) {
 
     return (
-      <div className='text-white'>
+      <div className='text-white p-4'>
         <div className="flex flex-col items-center gap-5 my-8 mx-auto mb-12">
           <img className='max-w-25' src={coinData.image.large} alt="" />
           <p><b className='text-4xl font-medium'>{coinData.name} ({coinData.symbol.toUpperCase()})</b></p>
