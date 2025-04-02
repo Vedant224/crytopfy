@@ -1,6 +1,5 @@
 import React, { useContext, useEffect, useState } from 'react'
-import { UNSAFE_FetchersContext } from 'react-router-dom'
-import { CoinContext } from '../context/coincontext'
+import { CoinContext } from '../context/CoinContext'
 import { Link } from 'react-router-dom'
 
 const Home = () => {
@@ -30,7 +29,6 @@ const Home = () => {
     }, [allCoin])
 
     return (
-        // CG-kBAqFPBd1XnhLdQNNQ5Q8o4q
         <div className='text-white my-10 p-4'>
             <div className="flex justify-center pt-0  py-[10px] pb-[50px]">
                 <div className="max-w-[600px] mx-[80px] my-auto flex flex-col items-center text-center gap-7">
